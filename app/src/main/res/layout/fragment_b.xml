@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#185d99">
+
+    <TextView
+        android:id="@+id/textviewFragB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textSize="40sp" />
+
+    <EditText
+        android:hint="input in Fragment B"
+        android:id="@+id/edittextFragB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonFragB"
+        android:text="Click B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
